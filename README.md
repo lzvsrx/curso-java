@@ -136,7 +136,7 @@ Arquivos:
 - `controle-de-fluxo/src/CaixaEletronico.java`
   - Exemplo de saque com verificacao de saldo usando `if/else`.
 - `controle-de-fluxo/src/ExemploBreakContinue.java`
-  - Exemplo de uso de `break` dentro de uma repeticao `for`.
+  - Exemplo de uso de `break` e `continue` dentro de uma repeticao `for`.
 - `controle-de-fluxo/src/ExemploFor.java`
   - Exemplo de repeticao com `for`, contando de 1 ate 20.
 - `controle-de-fluxo/src/ExemploForArray.java`
@@ -241,3 +241,4 @@ curso-java/
 - Estrutura de repeticao `for`
 - Estrutura de repeticao `for-each`
 - Comando `break`
+- Comando `continue`
