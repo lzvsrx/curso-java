@@ -131,6 +131,9 @@ Arquivos:
   - Configuracoes locais do projeto no VS Code.
 - `controle-de-fluxo/lib/.gitkeep`
   - Arquivo usado para manter a pasta `lib` no Git.
+- `controle-de-fluxo/src/Aboutme.java`
+  - Exemplo de leitura de nome, sobrenome, idade e altura com `Scanner`.
+  - Usa `Locale.US`, `try-with-resources` e trata `InputMismatchException`.
 - `controle-de-fluxo/src/App.java`
   - Classe inicial com mensagem `Hello, World!`.
 - `controle-de-fluxo/src/CaixaEletronico.java`
@@ -242,6 +245,7 @@ curso-java/
 - `try-with-resources`
 - Tratamento de excecoes com `try/catch`
 - Excecoes personalizadas
+- Tratamento de erro de entrada com `InputMismatchException`
 - Estrutura de repeticao `for`
 - Estrutura de repeticao `for-each`
 - Estrutura de repeticao `while`
