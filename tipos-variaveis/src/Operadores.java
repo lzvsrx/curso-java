@@ -72,5 +72,11 @@ public class Operadores {
         System.out.println("numero1 >= numero2 " + simNao3);
         System.out.println("numero1 <= numero2 " + simNao4);
         System.out.println("numero1 == numero2 " + simNao5);
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+        if(condicao1 && condicao2)
+            System.out.println("as duas condições são verdadeiras");
+        else
+            System.out.println("uma das condições é falsa");
     }
 }
