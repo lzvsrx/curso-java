@@ -2,6 +2,15 @@
 
 Repositorio com exercicios do curso de Java.
 
+## Arquivos da raiz
+
+- `README.md`
+  - README principal com a descricao de todos os projetos.
+- `.gitignore`
+  - Arquivo com regras de arquivos ignorados pelo Git.
+- `.vscode/settings.json`
+  - Configuracoes gerais do VS Code para o workspace.
+
 ## Projetos do repositorio
 
 ### java-anatomia-classes
@@ -79,9 +88,19 @@ Arquivos:
 - `java-terminal/lib/.gitkeep`
   - Arquivo usado para manter a pasta `lib` no Git.
 - `java-terminal/src/Calculadora.java`
-  - Classe com metodo `somar`, exemplo de parametros, retorno e marcacoes de documentacao.
+  - Classe com metodo `somar`, exemplo de parametros, retorno, JavaDoc e metodo `main` para testar a soma.
 - `java-terminal/src/Comentarios.java`
-  - Classe com metodo `SomaMultiplica`, usando parametro de texto para decidir entre soma e multiplicacao.
+  - Classe com metodo `somaMultiplica`, usando parametro de texto para decidir entre soma e multiplicacao.
+- `java-terminal/src/author.java`
+  - Annotation criada para exemplo de documentacao.
+- `java-terminal/src/param.java`
+  - Annotation criada para exemplo de documentacao.
+- `java-terminal/src/version.java`
+  - Annotation criada para exemplo de documentacao.
+- `java-terminal/src/numeroUm.java`
+  - Classe simples criada como exemplo.
+- `java-terminal/src/é.java`
+  - Classe simples criada com template do NetBeans.
 
 ### conta-banco
 
@@ -97,7 +116,31 @@ Arquivos:
   - Arquivo usado para manter a pasta `lib` no Git.
 - `conta-banco/src/ContaTerminal.java`
   - Classe com `main` que usa `Scanner` para ler numero da conta, agencia, nome do cliente e saldo.
+  - Usa `try-with-resources` para fechar o `Scanner` automaticamente.
   - Ao final, imprime uma mensagem confirmando os dados da conta criada.
+
+### controle-de-fluxo
+
+Projeto com exemplos de controle de fluxo em Java, usando `if/else`, operador ternario e `switch`.
+
+Arquivos:
+
+- `controle-de-fluxo/README.md`
+  - README padrao do projeto Java no VS Code.
+- `controle-de-fluxo/.vscode/settings.json`
+  - Configuracoes locais do projeto no VS Code.
+- `controle-de-fluxo/lib/.gitkeep`
+  - Arquivo usado para manter a pasta `lib` no Git.
+- `controle-de-fluxo/src/App.java`
+  - Classe inicial com mensagem `Hello, World!`.
+- `controle-de-fluxo/src/CaixaEletronico.java`
+  - Exemplo de saque com verificacao de saldo usando `if/else`.
+- `controle-de-fluxo/src/PlanoOperadora.java`
+  - Arquivo criado para exercicio de controle de fluxo.
+- `controle-de-fluxo/src/ResultadoEscolar.java`
+  - Exemplo de resultado escolar com `if`, `else if`, `else` e operador ternario.
+- `controle-de-fluxo/src/SistemaMedida.java`
+  - Exemplo de `switch` para classificar siglas de tamanho.
 
 ## Estrutura geral
 
@@ -105,7 +148,13 @@ Arquivos:
 curso-java/
 |-- README.md
 |-- .gitignore
+|-- .vscode/
 |-- conta-banco/
+|   |-- README.md
+|   |-- .vscode/
+|   |-- lib/
+|   `-- src/
+|-- controle-de-fluxo/
 |   |-- README.md
 |   |-- .vscode/
 |   |-- lib/
@@ -149,7 +198,10 @@ curso-java/
 - Operadores relacionais
 - Operadores logicos
 - Estruturas condicionais `if/else`
+- Controle de fluxo com `switch`
 - Criacao de objetos
 - Atributos e metodos
 - Entrada de dados pelo terminal com `Scanner`
 - Comentarios e documentacao de codigo
+- JavaDoc
+- `try-with-resources`

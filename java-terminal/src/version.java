@@ -1,0 +1,6 @@
+/**
+ * version
+ */
+public @interface version {
+
+}
