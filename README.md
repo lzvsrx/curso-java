@@ -135,6 +135,8 @@ Arquivos:
   - Classe inicial com mensagem `Hello, World!`.
 - `controle-de-fluxo/src/CaixaEletronico.java`
   - Exemplo de saque com verificacao de saldo usando `if/else`.
+- `controle-de-fluxo/src/ExemplDoWhile.java`
+  - Exemplo de repeticao com `do-while`, simulando uma ligacao ate o telefone ser atendido.
 - `controle-de-fluxo/src/ExemploBreakContinue.java`
   - Exemplo de uso de `break` e `continue` dentro de uma repeticao `for`.
 - `controle-de-fluxo/src/ExemploFor.java`
@@ -243,5 +245,6 @@ curso-java/
 - Estrutura de repeticao `for`
 - Estrutura de repeticao `for-each`
 - Estrutura de repeticao `while`
+- Estrutura de repeticao `do-while`
 - Comando `break`
 - Comando `continue`
