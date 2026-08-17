@@ -156,6 +156,7 @@ Arquivos:
   - Arquivo usado para manter a pasta `lib` no Git.
 - `DesafioControleFluxo/src/Contador.java`
   - Classe com `main` que le dois parametros usando `Scanner`.
+  - Usa `try-with-resources` para fechar o `Scanner` automaticamente.
   - Chama o metodo `contar` dentro de um bloco `try/catch`.
   - Valida se o segundo parametro e maior que o primeiro e imprime a contagem com `for`.
 - `DesafioControleFluxo/src/ParametrosInvalidosException.java`
