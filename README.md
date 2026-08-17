@@ -142,6 +142,25 @@ Arquivos:
 - `controle-de-fluxo/src/SistemaMedida.java`
   - Exemplo de `switch` para classificar siglas de tamanho.
 
+### DesafioControleFluxo
+
+Projeto de desafio com leitura de parametros pelo terminal, validacao, excecao personalizada e repeticao com `for`.
+
+Arquivos:
+
+- `DesafioControleFluxo/README.md`
+  - README padrao do projeto Java no VS Code.
+- `DesafioControleFluxo/.vscode/settings.json`
+  - Configuracoes locais do projeto no VS Code.
+- `DesafioControleFluxo/lib/.gitkeep`
+  - Arquivo usado para manter a pasta `lib` no Git.
+- `DesafioControleFluxo/src/Contador.java`
+  - Classe com `main` que le dois parametros usando `Scanner`.
+  - Chama o metodo `contar` dentro de um bloco `try/catch`.
+  - Valida se o segundo parametro e maior que o primeiro e imprime a contagem com `for`.
+- `DesafioControleFluxo/src/ParametrosInvalidosException.java`
+  - Excecao personalizada usada quando os parametros informados sao invalidos.
+
 ## Estrutura geral
 
 ```text
@@ -155,6 +174,11 @@ curso-java/
 |   |-- lib/
 |   `-- src/
 |-- controle-de-fluxo/
+|   |-- README.md
+|   |-- .vscode/
+|   |-- lib/
+|   `-- src/
+|-- DesafioControleFluxo/
 |   |-- README.md
 |   |-- .vscode/
 |   |-- lib/
@@ -205,3 +229,6 @@ curso-java/
 - Comentarios e documentacao de codigo
 - JavaDoc
 - `try-with-resources`
+- Tratamento de excecoes com `try/catch`
+- Excecoes personalizadas
+- Estrutura de repeticao `for`
