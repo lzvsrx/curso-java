@@ -141,6 +141,8 @@ Arquivos:
   - Exemplo de repeticao com `for`, contando de 1 ate 20.
 - `controle-de-fluxo/src/ExemploForArray.java`
   - Exemplo de repeticao com `for` e `for-each` percorrendo um array de alunos.
+- `controle-de-fluxo/src/ExemploWhile.java`
+  - Exemplo de repeticao com `while`, simulando gastos de uma mesada com valores aleatorios.
 - `controle-de-fluxo/src/PlanoOperadora.java`
   - Exemplo de `switch` moderno com planos de operadora `B`, `M` e `T`.
 - `controle-de-fluxo/src/ResultadoEscolar.java`
@@ -240,5 +242,6 @@ curso-java/
 - Excecoes personalizadas
 - Estrutura de repeticao `for`
 - Estrutura de repeticao `for-each`
+- Estrutura de repeticao `while`
 - Comando `break`
 - Comando `continue`
