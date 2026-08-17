@@ -136,7 +136,7 @@ Arquivos:
 - `controle-de-fluxo/src/CaixaEletronico.java`
   - Exemplo de saque com verificacao de saldo usando `if/else`.
 - `controle-de-fluxo/src/PlanoOperadora.java`
-  - Arquivo criado para exercicio de controle de fluxo.
+  - Exemplo de `switch` moderno com planos de operadora `B`, `M` e `T`.
 - `controle-de-fluxo/src/ResultadoEscolar.java`
   - Exemplo de resultado escolar com `if`, `else if`, `else` e operador ternario.
 - `controle-de-fluxo/src/SistemaMedida.java`
