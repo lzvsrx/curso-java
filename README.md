@@ -138,7 +138,7 @@ Arquivos:
 - `controle-de-fluxo/src/ExemploFor.java`
   - Exemplo de repeticao com `for`, contando de 1 ate 20.
 - `controle-de-fluxo/src/ExemploForArray.java`
-  - Exemplo de repeticao com `for` percorrendo um array de alunos.
+  - Exemplo de repeticao com `for` e `for-each` percorrendo um array de alunos.
 - `controle-de-fluxo/src/PlanoOperadora.java`
   - Exemplo de `switch` moderno com planos de operadora `B`, `M` e `T`.
 - `controle-de-fluxo/src/ResultadoEscolar.java`
@@ -237,3 +237,4 @@ curso-java/
 - Tratamento de excecoes com `try/catch`
 - Excecoes personalizadas
 - Estrutura de repeticao `for`
+- Estrutura de repeticao `for-each`
