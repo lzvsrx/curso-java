@@ -21,5 +21,12 @@ public class Operadores {
         boolean variavel = true;
         variavel = !variavel;
         System.out.println(variavel);
+        numero++;
+        System.out.println(numero);
+        System.out.println(++numero);
+        System.out.println(numero ++);
+        System.out.println(numero --);
+        boolean variavel2 = true;
+        System.out.println(!variavel2);
     }
 }
