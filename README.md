@@ -152,6 +152,25 @@ Arquivos:
 - `desafio-iphone-poo/bin/`
   - Arquivos `.class` compilados do projeto.
 
+### desafio-poo-java
+
+Projeto de desafio de Programacao Orientada a Objetos que simula um bootcamp com cursos, mentorias, devs inscritos, progresso de conteudos e calculo de XP.
+
+Arquivos:
+
+- `desafio-poo-java/src/Main.java`
+  - Classe de execucao que cria cursos, mentoria, bootcamp, dev inscrito, progresso e exibicao do XP total.
+- `desafio-poo-java/src/br/com/dio/desafio/dominio/Bootcamp.java`
+  - Classe que representa um bootcamp com nome, descricao, data inicial, data final, devs inscritos e conteudos.
+- `desafio-poo-java/src/br/com/dio/desafio/dominio/Conteudo.java`
+  - Classe abstrata base para conteudos, com titulo, descricao e metodo abstrato `calcularXp`.
+- `desafio-poo-java/src/br/com/dio/desafio/dominio/Curso.java`
+  - Classe de curso que herda de `Conteudo`, possui carga horaria e calcula XP com base nas horas.
+- `desafio-poo-java/src/br/com/dio/desafio/dominio/Dev.java`
+  - Classe que representa um dev com conteudos inscritos, conteudos concluidos, inscricao em bootcamp, progresso e soma de XP.
+- `desafio-poo-java/src/br/com/dio/desafio/dominio/Mentoria.java`
+  - Classe de mentoria que herda de `Conteudo`, possui data e calcula XP proprio.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -407,6 +426,8 @@ curso-java/
 |   |-- README.md
 |   |-- bin/
 |   `-- src/
+|-- desafio-poo-java/
+|   `-- src/
 |-- desafios/
 |-- exercicios/
 |-- gitbook/
@@ -486,6 +507,9 @@ curso-java/
 - Heranca
 - Listas com `ArrayList`
 - Operacoes bancarias com saque, deposito e transferencia
+- Modelagem de bootcamp com cursos, mentorias e devs
+- Calculo de XP com sobrescrita de metodos
+- `Set`, `HashSet`, `LinkedHashSet` e `Optional`
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
