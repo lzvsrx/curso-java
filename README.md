@@ -285,6 +285,43 @@ Arquivos e pastas principais:
 - `junit5-exemplos-master/src/test/java/com/github/willyancaetano/junit/`
   - Testes com JUnit 5 para assertions, assumptions, condicionais, excecoes, ordem de execucao, conta, pessoa e hooks `before/after`.
 
+### mockito-exemplos-master
+
+Projeto Maven com exemplos de testes usando Mockito em Java, incluindo criacao de mocks, injecao de dependencias, simulacao de retornos, simulacao de erros e verificacao de interacoes.
+
+Arquivos e pastas principais:
+
+- `mockito-exemplos-master/README.md`
+  - Documentacao do repositorio de exemplos com Mockito.
+- `mockito-exemplos-master/LICENSE`
+  - Licenca MIT do projeto.
+- `mockito-exemplos-master/pom.xml`
+  - Configuracao Maven com Java 11, JUnit Jupiter, Mockito Inline, Mockito JUnit Jupiter, PowerMock e Surefire.
+- `mockito-exemplos-master/src/main/java/module-info.java`
+  - Declaracao de modulo Java.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/ApiDosCorreios.java`
+  - Classe usada como dependencia externa simulada nos testes.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/CadastrarPessoa.java`
+  - Classe que cadastra pessoa usando dados de localizacao vindos da API dos Correios.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/Pessoa.java`
+  - Classe de dominio com dados pessoais e endereco.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/DadosLocalizacao.java`
+  - Classe com dados de endereco usados no cadastro.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/Conta.java`
+  - Classe usada nos exemplos de teste com conta.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/EnviarMensagem.java`
+  - Classe que guarda mensagens em uma lista imutavel para consulta.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/ServicoEnvioEmail.java`
+  - Classe de servico usada nos exemplos de envio de email.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/PlataformaDeEnvio.java`
+  - Classe usada nos testes de plataforma de envio.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/GeradorDeNumeros.java`
+  - Classe usada nos testes com valores gerados.
+- `mockito-exemplos-master/src/main/java/me/dio/mockito/exemplos/Email.java`, `Mensagem.java` e `Formato.java`
+  - Classes de apoio para os exemplos de mensagens e emails.
+- `mockito-exemplos-master/src/test/java/me/dio/mockito/exemplos/`
+  - Testes com Mockito e JUnit para mocks, stubs, excecoes, envio de mensagens, pessoa, conta e servicos.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -578,6 +615,9 @@ curso-java/
 |   |-- .settings/
 |   |-- bin/
 |   `-- src/
+|-- mockito-exemplos-master/
+|   |-- pom.xml
+|   `-- src/
 |-- projetos/
 |-- sistema-smart-tv/
 |   |-- README.md
@@ -662,6 +702,10 @@ curso-java/
 - Assertions, assumptions e testes condicionais
 - Testes de excecoes e ordem de execucao
 - Maven Surefire
+- Testes com Mockito
+- Mocks, stubs e verificacao de interacoes
+- Injecao de mocks em testes
+- Simulacao de dependencias externas
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
