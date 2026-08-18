@@ -13,6 +13,84 @@ Repositorio com exercicios do curso de Java.
 
 ## Projetos do repositorio
 
+### apresentacoes
+
+Pasta com apresentacoes em PowerPoint da trilha Java Basico e Santander Dev Week.
+
+Arquivos principais:
+
+- `apresentacoes/01 - DIO - Trilha - Java Basico - Abertura.pptx`
+- `apresentacoes/02 - DIO - Trilha - Java Basico - Fundamentos.pptx`
+- `apresentacoes/03 - DIO - Trilha - Java Basico - Sintaxe - Introducao.pptx`
+- `apresentacoes/03.03 - DIO - Trilha - Java Basico - Sintaxe - Tipos e Variaveis.pptx`
+- `apresentacoes/03.04 - DIO - Trilha - Java Basico - Sintaxe - Operadores.pptx`
+- `apresentacoes/03.05 - DIO - Trilha - Java Basico - Sintaxe - Metodos.pptx`
+- `apresentacoes/03.06 - DIO - Trilha - Java Basico - Sintaxe - Escopo.pptx`
+- `apresentacoes/03.07 - DIO - Trilha - Java Basico - Sintaxe - Palavras reservadas.pptx`
+- `apresentacoes/03.08 - DIO - Trilha - Java Basico - Sintaxe - Documentacao.pptx`
+- `apresentacoes/03.09 - DIO - Trilha - Java Basico - Sintaxe - Terminal e Argumentos.pptx`
+- `apresentacoes/03.10 - DIO - Trilha - Java Basico - Sintaxe - Desafio.pptx`
+- `apresentacoes/04 - DIO - Trilha - Java Basico - Controle de Fluxo - Introducao.pptx`
+- `apresentacoes/05 - DIO - Trilha - Java Basico - Orientacao a objetos - Introducao.pptx`
+- `apresentacoes/Santander Dev Week Setup.pptx`
+- `apresentacoes/Santander Dev Week.pptx`
+
+### codigo-fonte
+
+Pasta com exemplos de codigo-fonte separados do workspace principal.
+
+Arquivos:
+
+- `codigo-fonte/tipos-variaveis/src/Operadores.java`
+  - Classe base para exemplos de operadores.
+- `codigo-fonte/tipos-variaveis/src/TiposVariaveis.java`
+  - Exemplo de tipos numericos e conversao entre `byte` e `short`.
+
+### desafios
+
+Pasta com enunciados dos desafios da trilha Java Basico.
+
+Arquivos:
+
+- `desafios/sintaxe/README.md`
+  - Desafio de sintaxe para criacao do projeto `ContaBanco`.
+- `desafios/controle-fluxo/README.md`
+  - Desafio de controle de fluxo com parametros, repeticao `for` e excecao personalizada.
+- `desafios/poo/README.md`
+  - Desafio de POO para modelagem UML e implementacao de um componente iPhone.
+
+### exercicios
+
+Pasta com enunciados de exercicios.
+
+Arquivos:
+
+- `exercicios/README.md`
+  - README da trilha Java Basico.
+- `exercicios/banco-terminal/README.md`
+  - Exercicio de saque em terminal usando saldo, valor solicitado e condicional.
+
+### gitbook
+
+Pasta com material de estudo em Markdown no formato GitBook, incluindo textos e imagens de apoio.
+
+Arquivos e pastas principais:
+
+- `gitbook/README.md`
+  - Introducao ao Java Basico.
+- `gitbook/SUMMARY.md`
+  - Sumario do GitBook.
+- `gitbook/fundamentos/`
+  - Conteudos sobre historia do Java, plataformas, ambiente de desenvolvimento e IDE.
+- `gitbook/sintaxe/`
+  - Conteudos sobre anatomia das classes, variaveis, operadores, metodos, escopo, palavras reservadas, documentacao e terminal.
+- `gitbook/controle-de-fluxo/`
+  - Conteudos sobre condicionais, repeticoes e estruturas excepcionais.
+- `gitbook/programacao-orientada-a-objetos/`
+  - Conteudos sobre POO, classes, getters/setters, construtores, enums, UML e pilares da POO.
+- `gitbook/.gitbook/assets/`
+  - Imagens e GIFs usados na documentacao.
+
 ### java-anatomia-classes
 
 Projeto com exemplos iniciais de anatomia de classes Java, pacotes, metodos, constantes, impressao no console e estruturas condicionais.
@@ -188,6 +266,8 @@ curso-java/
 |-- README.md
 |-- .gitignore
 |-- .vscode/
+|-- apresentacoes/
+|-- codigo-fonte/
 |-- conta-banco/
 |   |-- README.md
 |   |-- .vscode/
@@ -203,6 +283,9 @@ curso-java/
 |   |-- .vscode/
 |   |-- lib/
 |   `-- src/
+|-- desafios/
+|-- exercicios/
+|-- gitbook/
 |-- java-anatomia-classes/
 |   |-- README.md
 |   |-- .vscode/
@@ -260,3 +343,8 @@ curso-java/
 - Estrutura de repeticao `do-while`
 - Comando `break`
 - Comando `continue`
+- Materiais de apoio em PowerPoint
+- Documentacao em GitBook
+- Enunciados de desafios e exercicios
+- Introducao a Programacao Orientada a Objetos
+- UML
