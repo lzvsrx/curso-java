@@ -76,6 +76,37 @@ Arquivos:
 - `banco-digital/src/banco/Main.java`
   - Classe de execucao que cria banco, clientes, contas, deposito, transferencia e extratos.
 
+### lab-banco-digital-oo-master
+
+Projeto de laboratorio de banco digital com Java e Orientacao a Objetos, baseado no desafio de abstracao de um dominio bancario com contas corrente e poupanca.
+
+Arquivos:
+
+- `lab-banco-digital-oo-master/README.md`
+  - Documentacao do desafio, conceitos de abstracao, encapsulamento, heranca e polimorfismo.
+- `lab-banco-digital-oo-master/.classpath`
+  - Configuracao de classpath do Eclipse.
+- `lab-banco-digital-oo-master/.project`
+  - Configuracao do projeto Eclipse.
+- `lab-banco-digital-oo-master/.settings/org.eclipse.jdt.core.prefs`
+  - Preferencias do compilador Java no Eclipse.
+- `lab-banco-digital-oo-master/src/Banco.java`
+  - Classe que representa o banco com nome e lista de contas.
+- `lab-banco-digital-oo-master/src/Cliente.java`
+  - Classe que representa o cliente com atributo `nome`.
+- `lab-banco-digital-oo-master/src/IConta.java`
+  - Interface com as operacoes `sacar`, `depositar`, `transferir` e `imprimirExtrato`.
+- `lab-banco-digital-oo-master/src/Conta.java`
+  - Classe abstrata com agencia, numero, saldo, cliente e implementacao comum das operacoes bancarias.
+- `lab-banco-digital-oo-master/src/ContaCorrente.java`
+  - Classe de conta corrente que herda de `Conta`.
+- `lab-banco-digital-oo-master/src/ContaPoupanca.java`
+  - Classe de conta poupanca que herda de `Conta`.
+- `lab-banco-digital-oo-master/src/Main.java`
+  - Classe de execucao que cria cliente, conta corrente, conta poupanca, deposito, transferencia e extratos.
+- `lab-banco-digital-oo-master/bin/`
+  - Arquivos `.class` compilados do laboratorio.
+
 ### codigo-fonte
 
 Pasta com exemplos de codigo-fonte separados do workspace principal.
@@ -390,6 +421,11 @@ curso-java/
 |   |-- .vscode/
 |   |-- lib/
 |   `-- src/
+|-- lab-banco-digital-oo-master/
+|   |-- README.md
+|   |-- .settings/
+|   |-- bin/
+|   `-- src/
 |-- projetos/
 |-- sistema-smart-tv/
 |   |-- README.md
@@ -450,6 +486,7 @@ curso-java/
 - Heranca
 - Listas com `ArrayList`
 - Operacoes bancarias com saque, deposito e transferencia
+- Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
 - Pilhas
