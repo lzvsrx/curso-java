@@ -322,6 +322,51 @@ Arquivos e pastas principais:
 - `mockito-exemplos-master/src/test/java/me/dio/mockito/exemplos/`
   - Testes com Mockito e JUnit para mocks, stubs, excecoes, envio de mensagens, pessoa, conta e servicos.
 
+### dio-springboot-main
+
+Conjunto de projetos de estudo sobre Spring Boot para a Digital Innovation One, cobrindo primeiros passos, IoC/DI, beans, properties, scopes, Spring Data JPA, Hibernate, repositories, APIs web, Swagger, Spring Security, seguranca com banco de dados e JWT.
+
+Arquivos e pastas principais:
+
+- `dio-springboot-main/README.md`
+  - README do curso de Spring Boot.
+- `dio-springboot-main/.gitignore`
+  - Regras de arquivos ignorados do conjunto de projetos.
+- `dio-springboot-main/perfil.jpeg`
+  - Imagem incluida no material do curso.
+- `dio-springboot-main/java-interfaces/`
+  - Exemplos de Java com interfaces, enums, cadastro de cliente, locacao de veiculo e arrays.
+- `dio-springboot-main/spring-primeiros-passos/`
+  - Projeto Spring Boot inicial com aplicacao, calculadora e execucao basica.
+- `dio-springboot-main/spring-ioc-di-beans-autowired/`
+  - Exemplos de inversao de controle, injecao de dependencias, beans, `Autowired` e conversao JSON.
+- `dio-springboot-main/spring-properties-value/`
+  - Exemplo de uso de propriedades e injecao de valores com Spring.
+- `dio-springboot-main/spring-configuration-properties/`
+  - Exemplo de configuracoes agrupadas com `ConfigurationProperties`.
+- `dio-springboot-main/spring-scopes-singleton-prototype/`
+  - Exemplos de escopos de beans, singleton e prototype.
+- `dio-springboot-main/spring-data-jpa-hibernate/`
+  - Projeto com Spring Data JPA, Hibernate, entidade `Usuario` e configuracoes de Eclipse.
+- `dio-springboot-main/spring-data-jpa-repository/`
+  - Projeto com repository, entidade `Usuario` e acesso a dados.
+- `dio-springboot-main/dio-spring-data-jpa/`
+  - Projeto Spring Data JPA com `User`, `UserRepository` e classe de inicializacao.
+- `dio-springboot-main/dio-spring-data-jpa-exception-handler/`
+  - Projeto com Spring Data JPA, controller de codigo postal, service e tratamento global de excecoes.
+- `dio-springboot-main/springboot-web/`
+  - API web com controller, model, repository e Maven Wrapper.
+- `dio-springboot-main/springboot-web-swagger/`
+  - API web com Swagger, controller de usuario, repository e Maven Wrapper.
+- `dio-springboot-main/spring-web-security-configure-adapter/`
+  - Exemplo de Spring Security com configuracao baseada em `WebSecurityConfig`.
+- `dio-springboot-main/dio-spring-security/`
+  - Projeto Spring Security com controller, usuario, repository e carga inicial.
+- `dio-springboot-main/spring-web-security-database/`
+  - Projeto Spring Security com autenticacao baseada em banco de dados e Maven Wrapper.
+- `dio-springboot-main/dio-spring-security-jwt/`
+  - Projeto com Spring Security, login, usuarios, DTOs de sessao e componentes JWT.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -584,6 +629,11 @@ curso-java/
 |   |-- .idea/
 |   |-- out/
 |   `-- src/
+|-- dio-springboot-main/
+|   |-- java-interfaces/
+|   |-- spring-primeiros-passos/
+|   |-- springboot-web/
+|   `-- dio-spring-security-jwt/
 |-- curso-dio-intro-java-i-o-master/
 |   |-- .idea/
 |   |-- out/
@@ -706,6 +756,15 @@ curso-java/
 - Mocks, stubs e verificacao de interacoes
 - Injecao de mocks em testes
 - Simulacao de dependencias externas
+- Spring Boot
+- IoC, DI, beans, `Autowired`, scopes e properties
+- Spring Data JPA, Hibernate e repositories
+- APIs REST com controllers, models e repositories
+- Swagger
+- Spring Security
+- Autenticacao com banco de dados
+- JWT
+- Maven Wrapper
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
