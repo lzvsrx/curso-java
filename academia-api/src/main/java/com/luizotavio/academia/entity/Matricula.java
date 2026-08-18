@@ -1,0 +1,3 @@
+package com.luizotavio.academia.entity;
+import jakarta.persistence.*; import java.time.LocalDateTime;
+@Entity @Table(name="matriculas") public class Matricula { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Long id; @OneToOne(optional=false) @JoinColumn(name="aluno_id",unique=true) private Aluno aluno; private LocalDateTime dataMatricula=LocalDateTime.now(); public Matricula(){} public Long getId(){return id;} public void setId(Long id){this.id=id;} public Aluno getAluno(){return aluno;} public void setAluno(Aluno a){aluno=a;} public LocalDateTime getDataMatricula(){return dataMatricula;} public void setDataMatricula(LocalDateTime d){dataMatricula=d;} }

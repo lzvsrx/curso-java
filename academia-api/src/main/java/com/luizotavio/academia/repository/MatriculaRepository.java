@@ -1,0 +1,1 @@
+package com.luizotavio.academia.repository; import com.luizotavio.academia.entity.Matricula; import org.springframework.data.jpa.repository.JpaRepository; public interface MatriculaRepository extends JpaRepository<Matricula,Long>{ boolean existsByAlunoId(Long alunoId); }

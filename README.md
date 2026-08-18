@@ -17,6 +17,59 @@ Repositorio com exercicios do curso de Java.
 
 ## Projetos do repositorio
 
+### academia-api
+
+API RESTful de academia com Spring Boot e Spring Data JPA, criada para o desafio de ORM no dominio de uma academia.
+
+Tecnologias e recursos:
+
+- Java 17
+- Spring Boot 3.5.5
+- Spring Web
+- Spring Data JPA
+- Bean Validation
+- H2 em memoria
+- PostgreSQL como opcao configuravel
+- Maven
+
+Arquivos e pastas principais:
+
+- `academia-api/README.md`
+  - Documentacao do projeto, tecnologias, instrucao de execucao, endpoints e exemplos de JSON.
+- `academia-api/pom.xml`
+  - Configuracao Maven com Spring Boot, Web, Data JPA, Validation, H2, PostgreSQL e testes.
+- `academia-api/src/main/java/com/luizotavio/academia/AcademiaApiApplication.java`
+  - Classe principal da aplicacao Spring Boot.
+- `academia-api/src/main/java/com/luizotavio/academia/controller/AlunoController.java`
+  - Controller REST com CRUD de alunos em `/alunos`.
+- `academia-api/src/main/java/com/luizotavio/academia/controller/AvaliacaoFisicaController.java`
+  - Controller REST para listar avaliacoes e criar avaliacoes por aluno em `/avaliacoes`.
+- `academia-api/src/main/java/com/luizotavio/academia/controller/MatriculaController.java`
+  - Controller REST para listar matriculas e matricular aluno em `/matriculas`.
+- `academia-api/src/main/java/com/luizotavio/academia/entity/Aluno.java`
+  - Entidade JPA de aluno com nome, email, telefone e data de nascimento.
+- `academia-api/src/main/java/com/luizotavio/academia/entity/AvaliacaoFisica.java`
+  - Entidade JPA de avaliacao fisica com aluno, peso, altura e data da avaliacao.
+- `academia-api/src/main/java/com/luizotavio/academia/entity/Matricula.java`
+  - Entidade JPA de matricula com relacionamento unico para aluno e data de matricula.
+- `academia-api/src/main/java/com/luizotavio/academia/repository/`
+  - Repositories Spring Data JPA para alunos, avaliacoes fisicas e matriculas.
+- `academia-api/src/main/resources/application.properties`
+  - Configuracao de H2, console H2, JPA e instrucoes comentadas para PostgreSQL.
+
+Endpoints principais:
+
+- `GET /alunos`
+- `GET /alunos/{id}`
+- `POST /alunos`
+- `PUT /alunos/{id}`
+- `DELETE /alunos/{id}`
+- `GET /avaliacoes`
+- `GET /avaliacoes/aluno/{alunoId}`
+- `POST /avaliacoes/aluno/{alunoId}`
+- `GET /matriculas`
+- `POST /matriculas/aluno/{alunoId}`
+
 ### apresentacoes
 
 Pasta com apresentacoes em PowerPoint da trilha Java Basico e Santander Dev Week.
@@ -622,6 +675,9 @@ curso-java/
 |-- .vscode/
 |-- Ementa-curso.odt
 |-- Ementa-curso.pdf
+|-- academia-api/
+|   |-- pom.xml
+|   `-- src/
 |-- apresentacoes/
 |-- banco-digital/
 |   `-- src/
@@ -794,6 +850,12 @@ curso-java/
 - Singleton
 - Strategy
 - Facade
+- API RESTful com Spring Boot
+- ORM com Spring Data JPA
+- Entidades JPA e relacionamentos
+- Bean Validation
+- Banco H2 em memoria
+- Configuracao opcional de PostgreSQL
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
