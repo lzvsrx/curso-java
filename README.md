@@ -138,16 +138,22 @@ Arquivos:
   - Classe inicial com mensagem `Hello, World!`.
 - `controle-de-fluxo/src/CaixaEletronico.java`
   - Exemplo de saque com verificacao de saldo usando `if/else`.
+- `controle-de-fluxo/src/CepInvalidoException.java`
+  - Excecao personalizada para validar CEP com 8 caracteres.
 - `controle-de-fluxo/src/ExemplDoWhile.java`
   - Exemplo de repeticao com `do-while`, simulando uma ligacao ate o telefone ser atendido.
 - `controle-de-fluxo/src/ExemploBreakContinue.java`
   - Exemplo de uso de `break` e `continue` dentro de uma repeticao `for`.
+- `controle-de-fluxo/src/ExemploExcecao.java`
+  - Exemplo de tratamento de `ParseException` ao tentar converter texto em numero com `NumberFormat`.
 - `controle-de-fluxo/src/ExemploFor.java`
   - Exemplo de repeticao com `for`, contando de 1 ate 20.
 - `controle-de-fluxo/src/ExemploForArray.java`
   - Exemplo de repeticao com `for` e `for-each` percorrendo um array de alunos.
 - `controle-de-fluxo/src/ExemploWhile.java`
   - Exemplo de repeticao com `while`, simulando gastos de uma mesada com valores aleatorios.
+- `controle-de-fluxo/src/FormatarCep.java`
+  - Exemplo de metodo que valida e formata CEP, lancando `CepInvalidoException` quando necessario.
 - `controle-de-fluxo/src/PlanoOperadora.java`
   - Exemplo de `switch` moderno com planos de operadora `B`, `M` e `T`.
 - `controle-de-fluxo/src/ResultadoEscolar.java`
@@ -246,6 +252,8 @@ curso-java/
 - Tratamento de excecoes com `try/catch`
 - Excecoes personalizadas
 - Tratamento de erro de entrada com `InputMismatchException`
+- Tratamento de conversao com `ParseException`
+- Formatacao e validacao de CEP
 - Estrutura de repeticao `for`
 - Estrutura de repeticao `for-each`
 - Estrutura de repeticao `while`
