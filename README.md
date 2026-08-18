@@ -35,6 +35,27 @@ Arquivos principais:
 - `apresentacoes/Santander Dev Week Setup.pptx`
 - `apresentacoes/Santander Dev Week.pptx`
 
+### banco-digital
+
+Projeto de banco digital em Java, aplicando Programacao Orientada a Objetos com clientes, contas, heranca, interfaces e operacoes bancarias.
+
+Arquivos:
+
+- `banco-digital/src/banco/Banco.java`
+  - Classe que representa o banco, armazena uma lista de contas e lista as contas cadastradas.
+- `banco-digital/src/banco/Cliente.java`
+  - Classe que representa o cliente com atributo `nome`.
+- `banco-digital/src/banco/IConta.java`
+  - Interface com operacoes bancarias: `sacar`, `depositar`, `transferir` e `imprimirExtrato`.
+- `banco-digital/src/banco/Conta.java`
+  - Classe abstrata com agencia, numero, saldo, cliente e implementacao comum das operacoes.
+- `banco-digital/src/banco/ContaCorrente.java`
+  - Classe de conta corrente que herda de `Conta` e imprime extrato especifico.
+- `banco-digital/src/banco/ContaPoupanca.java`
+  - Classe de conta poupanca que herda de `Conta` e imprime extrato especifico.
+- `banco-digital/src/banco/Main.java`
+  - Classe de execucao que cria banco, clientes, contas, deposito, transferencia e extratos.
+
 ### codigo-fonte
 
 Pasta com exemplos de codigo-fonte separados do workspace principal.
@@ -288,6 +309,8 @@ curso-java/
 |-- .gitignore
 |-- .vscode/
 |-- apresentacoes/
+|-- banco-digital/
+|   `-- src/
 |-- codigo-fonte/
 |-- conta-banco/
 |   |-- README.md
@@ -377,3 +400,7 @@ curso-java/
 - Encapsulamento
 - Abstracao
 - Polimorfismo
+- Classes abstratas
+- Heranca
+- Listas com `ArrayList`
+- Operacoes bancarias com saque, deposito e transferencia
