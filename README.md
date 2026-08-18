@@ -194,6 +194,33 @@ Arquivos:
 - `debugging-java-master/out/`
   - Arquivos `.class` compilados do projeto.
 
+### exceptions-java-master
+
+Projeto de estudo sobre tratamento de excecoes em Java, incluindo checked exceptions, unchecked exceptions, blocos `try/catch/finally`, `throw`, `throws` e excecoes personalizadas.
+
+Arquivos:
+
+- `exceptions-java-master/README.md`
+  - Material explicando conceitos de excecoes, hierarquia de erros, palavras reservadas e boas praticas de tratamento.
+- `exceptions-java-master/exceptions-java.iml`
+  - Arquivo de modulo do IntelliJ IDEA.
+- `exceptions-java-master/.idea/`
+  - Configuracoes do projeto no IntelliJ IDEA.
+- `exceptions-java-master/romances-blake-crouch.txt`
+  - Arquivo de texto usado nos exemplos de leitura de arquivo.
+- `exceptions-java-master/src/br/com/dio/exceptions/CheckedException.java`
+  - Exemplo de excecao verificada com leitura de arquivo, `FileNotFoundException`, `IOException` e bloco `finally`.
+- `exceptions-java-master/src/br/com/dio/exceptions/UncheckedException.java`
+  - Exemplo de excecoes nao verificadas com entrada via `JOptionPane`, conversao numerica e divisao por zero.
+- `exceptions-java-master/src/br/com/dio/exceptions/DivisaoNaoExataException.java`
+  - Classe de excecao personalizada para divisao nao exata.
+- `exceptions-java-master/src/br/com/dio/exceptions/ExceptionCustomizada_1.java`
+  - Exemplo de excecao personalizada para falha ao abrir arquivo.
+- `exceptions-java-master/src/br/com/dio/exceptions/ExceptionCustomizada_2.java`
+  - Exemplo de lancamento e captura de excecao personalizada junto com outras excecoes.
+- `exceptions-java-master/out/`
+  - Arquivos `.class` compilados do projeto.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -456,6 +483,11 @@ curso-java/
 |   |-- .idea/
 |   |-- out/
 |   `-- src/
+|-- exceptions-java-master/
+|   |-- README.md
+|   |-- .idea/
+|   |-- out/
+|   `-- src/
 |-- desafios/
 |-- exercicios/
 |-- gitbook/
@@ -542,6 +574,12 @@ curso-java/
 - Pilha de execucao e stack trace
 - Calculo de media com entrada pelo terminal
 - Configuracoes de projeto no IntelliJ IDEA
+- Tratamento de excecoes em Java
+- Checked exceptions e unchecked exceptions
+- Blocos `try`, `catch` e `finally`
+- Lancamento de excecoes com `throw` e declaracao com `throws`
+- Excecoes personalizadas
+- Leitura de arquivos com `FileReader`, `BufferedReader` e `BufferedWriter`
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
