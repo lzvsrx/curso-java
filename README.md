@@ -367,6 +367,29 @@ Arquivos e pastas principais:
 - `dio-springboot-main/dio-spring-security-jwt/`
   - Projeto com Spring Security, login, usuarios, DTOs de sessao e componentes JWT.
 
+### design-patterns-java
+
+Projeto de desafio com exemplos de padroes de projeto em Java, usando Singleton, Strategy e Facade em um fluxo simples de compras e pagamentos.
+
+Arquivos:
+
+- `design-patterns-java/src/main/java/br/com/dio/patterns/Main.java`
+  - Classe de execucao que demonstra Singleton, Facade e Strategy com compras por PIX, cartao e boleto.
+- `design-patterns-java/src/main/java/br/com/dio/patterns/singleton/Configuracao.java`
+  - Implementacao de Singleton para manter uma instancia unica de configuracao do sistema.
+- `design-patterns-java/src/main/java/br/com/dio/patterns/facade/LojaFacade.java`
+  - Facade que simplifica o fluxo de realizacao de compra e processamento de pagamento.
+- `design-patterns-java/src/main/java/br/com/dio/patterns/strategy/Pagamento.java`
+  - Interface Strategy para formas de pagamento.
+- `design-patterns-java/src/main/java/br/com/dio/patterns/strategy/ProcessadorPagamento.java`
+  - Classe que recebe e executa a estrategia de pagamento selecionada.
+- `design-patterns-java/src/main/java/br/com/dio/patterns/strategy/PagamentoPix.java`
+  - Estrategia de pagamento via PIX.
+- `design-patterns-java/src/main/java/br/com/dio/patterns/strategy/PagamentoCartao.java`
+  - Estrategia de pagamento via cartao.
+- `design-patterns-java/src/main/java/br/com/dio/patterns/strategy/PagamentoBoleto.java`
+  - Estrategia de pagamento via boleto.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -634,6 +657,8 @@ curso-java/
 |   |-- spring-primeiros-passos/
 |   |-- springboot-web/
 |   `-- dio-spring-security-jwt/
+|-- design-patterns-java/
+|   `-- src/
 |-- curso-dio-intro-java-i-o-master/
 |   |-- .idea/
 |   |-- out/
@@ -765,6 +790,10 @@ curso-java/
 - Autenticacao com banco de dados
 - JWT
 - Maven Wrapper
+- Padroes de projeto
+- Singleton
+- Strategy
+- Facade
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
