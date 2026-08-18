@@ -10,6 +10,10 @@ Repositorio com exercicios do curso de Java.
   - Arquivo com regras de arquivos ignorados pelo Git.
 - `.vscode/settings.json`
   - Configuracoes gerais do VS Code para o workspace.
+- `Ementa-curso.pdf`
+  - Ementa do curso em PDF.
+- `Ementa-curso.odt`
+  - Ementa do curso em formato editavel ODT.
 
 ## Projetos do repositorio
 
@@ -34,6 +38,22 @@ Arquivos principais:
 - `apresentacoes/05 - DIO - Trilha - Java Basico - Orientacao a objetos - Introducao.pptx`
 - `apresentacoes/Santander Dev Week Setup.pptx`
 - `apresentacoes/Santander Dev Week.pptx`
+- `apresentacoes/Aula1/`
+  - Slides sobre apresentacao, memoria, ambiente, atribuicao e referencia, nos, generics e refatoracao da classe `No`.
+- `apresentacoes/Aula2/`
+  - Slides sobre pilhas.
+- `apresentacoes/Aula3/`
+  - Slides sobre filas, nos embutidos e generics.
+- `apresentacoes/Aula4/`
+  - Slides sobre listas encadeadas.
+- `apresentacoes/Aula5/`
+  - Slides sobre listas duplamente encadeadas.
+- `apresentacoes/Aula6/`
+  - Slides sobre listas circulares.
+- `apresentacoes/Aula7/`
+  - Slides sobre arvores binarias.
+- `apresentacoes/Aula8/`
+  - Slides sobre `equals`, `hashCode`, `Stack`, `Queue`, `List`, `Set` e `Map`.
 
 ### banco-digital
 
@@ -132,6 +152,29 @@ Arquivos e pastas principais:
   - Conteudos sobre POO, classes, getters/setters, construtores, enums, UML e pilares da POO.
 - `gitbook/.gitbook/assets/`
   - Imagens e GIFs usados na documentacao.
+
+### projetos
+
+Pasta com projetos de estruturas de dados em Java, organizados por aulas e etapas. Inclui projetos Maven, arquivos de configuracao da IDE, codigo-fonte e arquivos compilados em `target/`.
+
+Conteudos principais:
+
+- `projetos/Aula1/`
+  - Apresentacao, memoria, instalacao/configuracao de ambiente, atribuicao e referencia, conceito de no, generics e refatoracao da classe `No`.
+- `projetos/Aula2/`
+  - Implementacoes de pilha.
+- `projetos/Aula3/`
+  - Implementacoes de fila, fila com no embutido e fila com generics.
+- `projetos/Aula4/`
+  - Lista encadeada.
+- `projetos/Aula5/`
+  - Lista duplamente encadeada.
+- `projetos/Aula6/`
+  - Lista circular.
+- `projetos/Aula7/`
+  - Arvore binaria.
+- `projetos/Aula8/`
+  - Exemplos com `equals`, `hashCode`, `Stack`, `Queue`, `List`, `Set` e `Map`.
 
 ### java-anatomia-classes
 
@@ -308,6 +351,8 @@ curso-java/
 |-- README.md
 |-- .gitignore
 |-- .vscode/
+|-- Ementa-curso.odt
+|-- Ementa-curso.pdf
 |-- apresentacoes/
 |-- banco-digital/
 |   `-- src/
@@ -345,6 +390,7 @@ curso-java/
 |   |-- .vscode/
 |   |-- lib/
 |   `-- src/
+|-- projetos/
 |-- sistema-smart-tv/
 |   |-- README.md
 |   |-- .vscode/
@@ -404,3 +450,15 @@ curso-java/
 - Heranca
 - Listas com `ArrayList`
 - Operacoes bancarias com saque, deposito e transferencia
+- Estruturas de dados
+- Nos e encadeamento
+- Pilhas
+- Filas
+- Listas encadeadas
+- Listas duplamente encadeadas
+- Listas circulares
+- Arvores binarias
+- Generics
+- `equals` e `hashCode`
+- Collections: `Stack`, `Queue`, `List`, `Set` e `Map`
+- Maven
