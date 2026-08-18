@@ -59,6 +59,27 @@ Arquivos:
 - `desafios/poo/README.md`
   - Desafio de POO para modelagem UML e implementacao de um componente iPhone.
 
+### desafio-iphone-poo
+
+Projeto do desafio de Programacao Orientada a Objetos que modela um iPhone usando interfaces, abstracao, encapsulamento e polimorfismo.
+
+Arquivos:
+
+- `desafio-iphone-poo/README.md`
+  - Documentacao do desafio, diagrama UML em texto, conceitos aplicados e instrucoes de execucao.
+- `desafio-iphone-poo/src/iphone/ReprodutorMusical.java`
+  - Interface com os metodos `tocar`, `pausar` e `selecionarMusica`.
+- `desafio-iphone-poo/src/iphone/AparelhoTelefonico.java`
+  - Interface com os metodos `ligar`, `atender` e `iniciarCorreioVoz`.
+- `desafio-iphone-poo/src/iphone/NavegadorInternet.java`
+  - Interface com os metodos `exibirPagina`, `adicionarNovaAba` e `atualizarPagina`.
+- `desafio-iphone-poo/src/iphone/IPhone.java`
+  - Classe que implementa as tres interfaces e concentra as funcionalidades do iPhone.
+- `desafio-iphone-poo/src/iphone/Main.java`
+  - Classe de execucao que instancia um `IPhone` e testa as funcionalidades de musica, telefone e navegador.
+- `desafio-iphone-poo/bin/`
+  - Arquivos `.class` compilados do projeto.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -283,6 +304,10 @@ curso-java/
 |   |-- .vscode/
 |   |-- lib/
 |   `-- src/
+|-- desafio-iphone-poo/
+|   |-- README.md
+|   |-- bin/
+|   `-- src/
 |-- desafios/
 |-- exercicios/
 |-- gitbook/
@@ -348,3 +373,7 @@ curso-java/
 - Enunciados de desafios e exercicios
 - Introducao a Programacao Orientada a Objetos
 - UML
+- Interfaces
+- Encapsulamento
+- Abstracao
+- Polimorfismo
