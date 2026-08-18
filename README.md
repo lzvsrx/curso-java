@@ -258,6 +258,33 @@ Arquivos e pastas principais:
 - `curso-dio-intro-java-i-o-master/out/`
   - Arquivos `.class` compilados do projeto.
 
+### junit5-exemplos-master
+
+Projeto Maven com exemplos de testes unitarios usando JUnit 5, incluindo assertions, assumptions, testes condicionais, ordem de execucao, excecoes e metodos de preparacao/finalizacao.
+
+Arquivos e pastas principais:
+
+- `junit5-exemplos-master/README.md`
+  - Documentacao do repositorio de exemplos com JUnit.
+- `junit5-exemplos-master/CONFIGURACAO.md`
+  - Roteiro de configuracao do JUnit.
+- `junit5-exemplos-master/LICENSE`
+  - Licenca MIT do projeto.
+- `junit5-exemplos-master/pom.xml`
+  - Configuracao Maven com Java 11, JUnit Jupiter e plugins de compilacao, jar e Surefire.
+- `junit5-exemplos-master/src/main/java/module-info.java`
+  - Declaracao de modulo Java.
+- `junit5-exemplos-master/src/main/java/com/github/willyancaetano/junit/Conta.java`
+  - Classe de conta com numero, saldo, credito e debito.
+- `junit5-exemplos-master/src/main/java/com/github/willyancaetano/junit/Pessoa.java`
+  - Classe usada nos exemplos de testes com dados de pessoa.
+- `junit5-exemplos-master/src/main/java/com/github/willyancaetano/junit/GerenciadorDeConexaoComBancoDeDados.java`
+  - Classe usada nos exemplos de ciclo de vida dos testes.
+- `junit5-exemplos-master/src/main/java/com/github/willyancaetano/junit/TransferenciaEntreContas.java`
+  - Classe que realiza transferencia entre contas e valida valores invalidos.
+- `junit5-exemplos-master/src/test/java/com/github/willyancaetano/junit/`
+  - Testes com JUnit 5 para assertions, assumptions, condicionais, excecoes, ordem de execucao, conta, pessoa e hooks `before/after`.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -543,6 +570,9 @@ curso-java/
 |   |-- .vscode/
 |   |-- lib/
 |   `-- src/
+|-- junit5-exemplos-master/
+|   |-- pom.xml
+|   `-- src/
 |-- lab-banco-digital-oo-master/
 |   |-- README.md
 |   |-- .settings/
@@ -628,6 +658,10 @@ curso-java/
 - `InputStream`, `OutputStream`, `Reader` e `Writer`
 - `DataInputStream` e `DataOutputStream`
 - Manipulacao de arquivos com `File`
+- Testes unitarios com JUnit 5
+- Assertions, assumptions e testes condicionais
+- Testes de excecoes e ordem de execucao
+- Maven Surefire
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
