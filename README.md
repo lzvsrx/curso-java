@@ -221,6 +221,43 @@ Arquivos:
 - `exceptions-java-master/out/`
   - Arquivos `.class` compilados do projeto.
 
+### curso-dio-intro-java-i-o-master
+
+Projeto de estudo sobre Java I/O, leitura e escrita de arquivos, streams de caracteres, streams de bytes, serializacao de objetos, `DataInputStream`, `DataOutputStream` e tratamento de excecoes em operacoes de arquivo.
+
+Arquivos e pastas principais:
+
+- `curso-dio-intro-java-i-o-master/curso-dio-intro-java-io.iml`
+  - Arquivo de modulo do IntelliJ IDEA.
+- `curso-dio-intro-java-i-o-master/.idea/`
+  - Configuracoes do projeto no IntelliJ IDEA.
+- `curso-dio-intro-java-i-o-master/file-input-output.pdf`
+  - Material de apoio em PDF sobre entrada e saida de arquivos.
+- `curso-dio-intro-java-i-o-master/java.io.IOException-um-breve-resumo.pdf`
+  - Material de apoio em PDF sobre `IOException`.
+- `curso-dio-intro-java-i-o-master/dica-para-ler-e-escrever-arquivo-java-IO.txt`
+  - Arquivo de texto usado nos exemplos de leitura e escrita.
+- `curso-dio-intro-java-i-o-master/recomendacoes.txt`
+  - Arquivo de texto usado nos exercicios de copia e manipulacao de conteudo.
+- `curso-dio-intro-java-i-o-master/recomendacoes-copy.txt`
+  - Arquivo de copia usado nos exemplos de I/O.
+- `curso-dio-intro-java-i-o-master/recomendacoes-copy2.txt`
+  - Arquivo gerado como copia em exemplos com bytes.
+- `curso-dio-intro-java-i-o-master/gato`
+  - Arquivo usado nos exemplos de serializacao de objeto.
+- `curso-dio-intro-java-i-o-master/src/br/com/dio/java/io/IOCharacter/`
+  - Exemplos com `File`, leitura e escrita por caracteres, `Reader`, `Writer`, exercicios e versoes comentadas.
+- `curso-dio-intro-java-i-o-master/src/br/com/dio/java/io/IOBytes/`
+  - Exemplos com `InputStream`, `OutputStream`, `BufferedInputStream` e `BufferedOutputStream`.
+- `curso-dio-intro-java-i-o-master/src/br/com/dio/java/io/IOBytes/IOData/`
+  - Exemplos com leitura e escrita de dados primitivos usando streams de dados.
+- `curso-dio-intro-java-i-o-master/src/br/com/dio/java/io/IOBytes/IOObject/`
+  - Exemplos de serializacao e desserializacao de objetos, incluindo as classes `Gato` e `GatoComentado`.
+- `curso-dio-intro-java-i-o-master/src/br/com/dio/java/io/IOExceptions/`
+  - Exemplos de `try/catch/finally`, `throw`, `throws` e excecoes em abertura de streams.
+- `curso-dio-intro-java-i-o-master/out/`
+  - Arquivos `.class` compilados do projeto.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -483,6 +520,10 @@ curso-java/
 |   |-- .idea/
 |   |-- out/
 |   `-- src/
+|-- curso-dio-intro-java-i-o-master/
+|   |-- .idea/
+|   |-- out/
+|   `-- src/
 |-- exceptions-java-master/
 |   |-- README.md
 |   |-- .idea/
@@ -580,6 +621,13 @@ curso-java/
 - Lancamento de excecoes com `throw` e declaracao com `throws`
 - Excecoes personalizadas
 - Leitura de arquivos com `FileReader`, `BufferedReader` e `BufferedWriter`
+- Java I/O
+- Streams de caracteres
+- Streams de bytes
+- Serializacao e desserializacao de objetos
+- `InputStream`, `OutputStream`, `Reader` e `Writer`
+- `DataInputStream` e `DataOutputStream`
+- Manipulacao de arquivos com `File`
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
