@@ -171,6 +171,29 @@ Arquivos:
 - `desafio-poo-java/src/br/com/dio/desafio/dominio/Mentoria.java`
   - Classe de mentoria que herda de `Conteudo`, possui data e calcula XP proprio.
 
+### debugging-java-master
+
+Projeto de estudo sobre debugging em Java, pilha de execucao, stack trace, execucao passo a passo e acompanhamento de fluxo de metodos.
+
+Arquivos:
+
+- `debugging-java-master/README.md`
+  - Material explicando conceitos introdutorios de debugging, erros de sintaxe, erros de semantica, depuracao e stack trace.
+- `debugging-java-master/.classpath`
+  - Configuracao de classpath do Eclipse.
+- `debugging-java-master/.project`
+  - Configuracao do projeto Eclipse.
+- `debugging-java-master/debugging-java.iml`
+  - Arquivo de modulo do IntelliJ IDEA.
+- `debugging-java-master/.idea/`
+  - Configuracoes do projeto no IntelliJ IDEA.
+- `debugging-java-master/src/br/com/dio/debbuging/Main.java`
+  - Classe com metodos encadeados `a`, `b` e `c`, usada para observar pilha de execucao e fluxo do programa.
+- `debugging-java-master/src/br/com/dio/debbuging/CalculadoraDeMedias.java`
+  - Classe que usa `Scanner` para receber notas de alunos e calcular a media da turma.
+- `debugging-java-master/out/`
+  - Arquivos `.class` compilados do projeto.
+
 ### exercicios
 
 Pasta com enunciados de exercicios.
@@ -428,6 +451,11 @@ curso-java/
 |   `-- src/
 |-- desafio-poo-java/
 |   `-- src/
+|-- debugging-java-master/
+|   |-- README.md
+|   |-- .idea/
+|   |-- out/
+|   `-- src/
 |-- desafios/
 |-- exercicios/
 |-- gitbook/
@@ -510,6 +538,10 @@ curso-java/
 - Modelagem de bootcamp com cursos, mentorias e devs
 - Calculo de XP com sobrescrita de metodos
 - `Set`, `HashSet`, `LinkedHashSet` e `Optional`
+- Debugging em Java
+- Pilha de execucao e stack trace
+- Calculo de media com entrada pelo terminal
+- Configuracoes de projeto no IntelliJ IDEA
 - Projetos Java com configuracao do Eclipse
 - Estruturas de dados
 - Nos e encadeamento
